@@ -1,1 +1,68 @@
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+.pokemon__title {
+	color: #222;
+	font-size: 2rem;
+	text-transform: capitalize;
+	margin-bottom: 0;
+}
+
+.pokemon__image {
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	float: left;
+	margin-right: 1rem;
+}
+
+.pokemon__details {
+	padding: 0;
+	list-style: none;
+}
+
+.pokemon__details > li {
+	margin-bottom: 0.5rem;
+}
+
+.pokemon__types {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	gap: 0.5rem;
+}
+
+.pokemon__type {
+	padding: 0.3rem 1rem;
+	text-transform: capitalize;
+}
+
+.pokemon__type.grass {
+	background-color: #69f60b;
+	color: #204000;
+}
+
+.pokemon__type.poison {
+	background-color: #ca72ec;
+	color: #621481;
+}
+
+.pokemon__type.fire {
+	background-color: #f9b80c;
+	color: #fd0a0c;
+}
+
+.pokemon__type.water {
+	background-color: #37aef6;
+	color: #08517a;
+}
+.pokemon__type.normal {
+	background-color: #eaeade;
+	color: #ada974;
+}
+.pokemon__type.electric {
+	background-color: #f8ff85;
+	color: #979205;
+}
